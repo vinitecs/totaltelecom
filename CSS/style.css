@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin: auto;
+}
+
+.logo {
+    width: 150px;
+    height: 90px;
+}
+
+.header-nav {
+    text-align: center;
+    display: block;
+}
+
+.header-img {
+
+    overflow: hidden;
+
+}
+
+.header-nav a {
+    display: block;
+    border-top: 1px solid #bababa;
+    padding: 10px;
+    font-weight: 500px;
+    font-size: 25px;
+    color: #2b1d9d;
+}
+
+.header-nav a:hover {
+    border-top: 1px solid #8e8e8e;
+}
+
+.header-footer {
+    background-color: #181340;
+    max-width: 100%;
+    height: 999px;
+    color: white;
+    text-align: center;
+    margin: 0;
+
+}
+
+.header-img {
+    max-width: 100%;
+}
+
+.header-footer .text {
+    display: block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    height: 50px;
+
+
+}
+
+.header-footer .amarelo {
+    color: #FFB821;
+    font-size: 30px;
+    font-weight: 100px;
+
+}
+
+.header-footer h2 {
+    display: block;
+    margin: 0;
+    color: #bfeafb;
+    font-size: 30px;
+    font-weight: 100;
+
+
+}
+
+.header-footer .a {
+    padding: 25px;
+    background-color: #3AA286;
+    color: white;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+}
+
+.header-footer .us {
+    display: block;
+    padding: 0px;
+    height: 112px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    width: 10.9em;
+    font-size: 30px;
+
+}
+
+.header-footer p {
+    display: block;
+    width: 19em;
+    margin-bottom: 10px;
+}
+
+.header-footer p b {
+    font-size: 20px;
+    display: inline-block;
+}
+
+.bottom {
+    margin: 25px;
+    display: block;
+    color: white;
+    font-weight: 600;
+    padding: 10px 10px 10px 0;
+    background-color: rgb(0, 209, 153);
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+.section-g {
+    text-align: center;
+    height: 65em;
+
+    padding-top: 50px
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.menu {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 20px;
+    font-size: 10px;
+    border: 1px solid #9b9b9b;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.menu:hover {
+
+    transition: 1s;
+    -webkit-box-shadow: -1px -1px 20px -2px rgba(0, 0, 0, 1);
+    -moz-box-shadow: -1px -1px 20px -2px rgba(0, 0, 0, 1);
+    box-shadow: -1px -1px 20px -2px rgba(0, 0, 0, 1);
+}
+
+.section-g h1 {
+    display: block;
+    width: 250;
+    margin: auto;
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+footer {
+    max-width: 100%;
+    height: 400px;
+    background-color: #130964;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer ul li {
+    font-family: 'Open Sans', sans-serif;
+    margin: 10px;
+    display: block;
+    box-sizing: border-box;
+    width: 15em;
+    font-weight: 900;
+    
+
+}
+
+.logo-footer img {
+
+    width: 200px;
+    height: 100px;
+    text-align: end;
+    margin: 0;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+
+    color: aliceblue;
+}
+
+.img-fix {
+    display: none;
+}
+  .logo-footer img {
+
+        width: 200px;
+        height: 100px;
+        text-align: end;
+        margin: 0;
+    }
+   .logo-setups img {
+        display: block;
+        width: 150px;
+        height: 100px;
+       
+    }
+   .fab {
+        color: #3AA286;
+    }
+
+    .fas {
+        color: white;
+    }
+   
+    .final p {
+        color: aliceblue;      
+        text-decoration: none;
+        position: static;
+        margin: 0;
+        text-align: center;
+        margin: 10px
+            
+    }
+ .final p a{
+        color: white;
+    }
+@media screen and (min-width: 1024px) {
+    .logo {
+        width: 150px;
+        height: 90px;
+        margin: 0;
+        padding: 0px;
+        position: absolute;
+        left: 50px;
+        top: 0;
+        box-sizing: border-box;
+        padding: 10px;
+
+    }
+
+    .header-nav {
+        height: 90px;
+        max-width: 100%;
+        display: flex;
+        margin: 0px;
+        justify-content: space-around;
+
+
+    }
+
+    .header-nav .navegacao {
+        display: flex;
+        flex-direction: row;
+
+        margin: 0px;
+
+    }
+
+    .header-nav a {
+        border: 1px solid transparent;
+
+    }
+
+    .header-footer img {
+        display: none;
+    }
+
+    .header-footer {
+        background-image: url(../imgs/header-1.png);
+        background-size: cover;
+        height: 700px;
+
+
+
+    }
+
+    .text-g {
+        position: absolute;
+        top: 120px;
+        left: 20px;
+        width: 650px;
+
+    }
+
+    .us {
+
+        display: block;
+        margin-bottom: 0px;
+        width: 20em !important;
+        text-align: center;
+        font-size: 34px;
+
+    }
+
+    .bottom {
+        display: block;
+        margin: auto;
+        padding: 20px;
+        width: 200px;
+        position: absolute;
+        left: 8.3em;
+    }
+
+    .section-g img {
+
+        align-items: stretch;
+    }
+
+    .section-g {
+        display: flex;
+        height: 25em;
+    }
+
+    .menu {
+        width: 50em;
+    }
+
+    .img-fix {
+        display: block;
+        position: fixed;
+        bottom: 30px;
+        right: 25px;
+
+    }
+
+    footer {
+        padding: 25px;
+        display: flex;
+        height:250px;
+
+    }
+
+    footer ul li {
+        font-family: 'Open Sans', sans-serif;
+        margin: 10px;
+        display: block;
+        box-sizing: border-box;
+        width: 17em;
+        font-weight: 900;
+
+
+    }
+
+    footer ul {
+        position: absolute;
+        left: 0;
+    }
+
+    .logo-footer img {
+
+        width: 200px;
+        height: 100px;
+        text-align: end;
+        margin: 0;
+
+
+
+    }
+
+    footer ul li a {
+        text-decoration: none;
+        display: inline-block;
+        margin: 1px 1px 1px 10px;
+        color: aliceblue;
+        box-sizing: border-box;
+
+    }
+
+    .fab {
+        margin: 5px;
+        color: #3AA286;
+    }
+
+    .fas {
+        margin-left: 25px;
+        color: white;
+    }
+
+    .logo-setups img {
+        display: block;
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        right: 50px;
+
+    }
+    .final{
+ 
+     
+        text-align: center;
+    }
+    .final p {
+        color: aliceblue;
+        text-align: center;
+        text-decoration: none;
+        position: static;
+        margin: 0;
+    }
+    .final p a{
+        color: white;
+    }
+}
